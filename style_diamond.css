@@ -1,0 +1,214 @@
+body{
+    background-color: rgb(247, 247, 247);
+}
+#cont-menu-vertical{
+    width: 200px;
+    height: 100%;
+    display: block;
+    float: left;
+    position: fixed;
+    background-color: #26BEC9;
+    color: rgb(218, 218, 218);
+    top: 0;
+    left: 0;
+}
+ .logo-menu img{
+    width: 200px;
+    height: 10%;
+}
+.links p {
+    margin-top: 20px;
+    padding: 4%;
+}
+.links a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    color: #011E36;
+}
+.links a:hover{
+    color: aliceblue;
+}
+#cont-menu-horizontal{
+    width: 85.5%;
+    height: 100px;
+    margin-left: 200px;
+    background-color:#26BEC9;
+    top: 0;
+}
+.links-horizontal{
+    float: right;
+    width: 23%;
+    padding: 1%;
+    font-style: italic;
+}
+.links-horizontal a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #011E36;
+    float: left;
+    margin-left: 20px;
+}
+.links-horizontal a:hover{
+    color: aliceblue;
+}
+.banner-inicial{
+    display: inline-flex;
+}
+.banner-inicial img{
+    width: 300px;
+    height: 250px;
+    margin-left: 300px;
+    padding-top: 3%;
+    border-radius: 5px 5px 10px;
+    
+}
+.conteudo{
+    margin-left: 210px;
+    width: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.conteudo h1{
+    font-size: 30px;
+    color: #011E36;
+    text-align: center;
+}
+.conteudo p{
+    font-size: 20px;
+    text-align: justify;
+    border-radius: 5px 5px;
+    margin-left: 20px;
+}
+.conteudo h2{
+    color: #26BEC9;
+    margin-left: 15px ;
+}
+.conteudo iframe{
+    margin-left: 300px;
+}
+.conteudo img{
+    width: 300px;
+    height: 290px;
+    padding: 2%;
+}
+.conteudo span{
+    padding: 16%;
+}
+.conteudo-atend{
+    text-align: center;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 100px;
+    color: #26BEC9;
+}
+.conteudo-atend h1{
+    color:#011E36;
+    font-size: 40px;
+}
+.conteudo-atend h3{
+    color:#011E36;
+}
+.conteudo-atend td{
+    color:#011E36;
+    font-size: 40px;
+}
+.conteudo-atend h4{
+    font-size: 30px;
+}
+
+.conteudo-atend img{
+    margin-left: 250px;
+    width: 180px;
+    height: 150px;
+    padding: 2%;
+}
+.cadastro{
+    margin-top: 20px;
+    margin-left: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px solid #011E36;
+    border-radius: 5px 5px 5px 5px;
+    width: 600px;
+    height: 560px;
+    color: #26BEC9;
+    background-color: #011E36;
+    text-align: center;
+}
+.cadastro h2{
+    text-align: center;
+}
+.cadastro label{
+    font-size: 20px;
+    
+}
+.cadastro input{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px 5px;
+}
+.bottom-end input{
+    width: 170px;
+    height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.bottom-end #enviar{
+    background-color: #26BEC9;
+    border: none;
+}
+.bottom-end #resetar{
+    background-color: #c92626;
+    border: none;
+}
+select{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px 5px;
+}
+
+.entrar form{
+    margin-top: 20px;
+    margin-left: 530px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px solid #011E36;
+    border-radius: 5px 5px 5px 5px;
+    width: 300px;
+    height: 250px;
+    color: #26BEC9;
+    background-color: #011E36;
+    text-align: center;
+}
+.entrar label{
+    font-size: 20px;
+}
+.entrar h1{
+    font-size: 26px;
+    margin-right: 90px;
+}
+.entrar input{
+    height: 20px;
+}
+.entrar #enviar{
+    width: 100px;
+    height: 30px;
+    background-color: #26BEC9;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.entrar #resetar{
+    width: 100px;
+    height: 30px;
+    background-color:#c92626;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.entrar #resetar:hover{
+    background-color: rgb(102, 102, 102);
+}
+.entrar #enviar:hover{
+    background-color: rgb(102, 102, 102);
+}
